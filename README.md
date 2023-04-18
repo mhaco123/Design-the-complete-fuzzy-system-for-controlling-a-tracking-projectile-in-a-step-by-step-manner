@@ -1,1 +1,6 @@
 # Design-the-complete-fuzzy-system-for-controlling-a-tracking-projectile-in-a-step-by-step-manner
+Designing a complete fuzzy system to control a tracking projectile in a step-by-step manner with the help of fuzzy kilipz and fuzzy toolbox in MATLAB
+  The projectile is chasing a plane and its goal is to reach that plane. The important parameters are the vector difference of the direction of speed and the amount of speed of two vehicles. The rocket has sensors for measuring these parameters and sensors for turning and increasing or decreasing speed.
+Project description:
+This problem includes two parts: fuzzy design and evolutionary optimization. In the first step, we design the fuzzy system in the fuzzy environment of Clips. In general, the design of a fuzzy system includes the following steps.
+In this problem, the two input system is vector difference and direction difference, as well as two operators of direction change and speed change. Considering that the goal of tracking missile control systems is for the missile to reach the plane, the control rules are applied in order to hit and zero the distance and direction. Therefore, in Clips software version 3.6, we first define the inputs and fuzzy terms. In the following, we will define linguistic variables and finally implement it by applying fuzzy rules.
